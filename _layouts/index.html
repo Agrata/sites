@@ -39,13 +39,15 @@
     </div>
   </nav>
   
-  <div class="main">
+  <div class="main main-raised">
   <div class="container">
   
   {{ content }}
-  
-  <hr>
-    
+	  
+  {% include features.html %}
+	<hr>
+  {% include works.html %}	
+	<hr>
   {% include contact.html %}
   
   {% include terms.html %}
