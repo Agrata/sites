@@ -1,17 +1,27 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="index-page sidebar-collapse">
+  
+  {% include nav.html %}
+  
+  <div class="main">
+  <div class="container">
+  
+  {{ content }}
+  
+  {% include terms.html %}
+  
+  {% include privacy.html %}
+  
+  </div>
+  </div>
+    
+  {% include about.html %}
+  
+  {% include footer.html %}
+  
+  {% include scripts.html %}
+</body>
+</html>
 
-<div class="page-header" data-parallax="true" style="background-image: url('assets/img/walle.jpg')">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 ml-auto mr-auto">
-          <div class="brand text-center">
-            <h1 style="color:black;">404</h1>
-            <h3 style="color:black; class="title text-center">The page you are looking for was not found.</h3><br>
-		<a class="btn btn-danger btn-raised btn-lg" href="http://sites.agrata.net">Take Me Home</a>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
