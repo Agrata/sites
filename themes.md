@@ -14,18 +14,14 @@ excerpt:  Choose from a collection of premium HTML5 templates, built by creators
 	<br>
       <div class="container-fluid text-center">
         <div class="row">
-	<ul>
           {% for post in site.posts %}
-		<li>
 		<div class="col-md-6">
 			<a href="{{ post.url }}" title="{{ post.title }}">
               		<img src="{{ post.img }}" class="img-raised rounded img-fluid">
               		<button class="btn  btn-link btn-primary btn-lg">{{ post.title }}</button>
             		</a>
           	</div>
-		</li>
           {% endfor %}
-	  </ul>
         </div>
       </div>
 </div>
