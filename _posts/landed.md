@@ -1,0 +1,10 @@
+---
+layout: default
+permalink: landed
+title:  "Landed"
+excerpt:  HTML5
+img: "https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=mc&screen=1280x1024&url=https%3A%2F%2Fhtml5up.net%2Fuploads%2Fdemos%2Flanded%2F"
+author: vinaiak
+tag: HTML5UP
+category: multipurpose
+---
