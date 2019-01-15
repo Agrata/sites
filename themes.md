@@ -16,7 +16,7 @@ excerpt:  Choose from a collection of premium HTML5 templates, built by creators
         <div class="row">
           {% for post in site.posts %}
 		<div class="col-md-6">
-			<a href="{{ post.link }}" title="{{ post.title }}">
+			<a href="{{ post.link }}" title="{{ post.title }}" target="_blank">
               		<img src="{{ post.img }}" class="img-raised rounded img-fluid">
               		<button class="btn  btn-link btn-primary btn-lg">{{ post.title }}</button>
             		</a>
