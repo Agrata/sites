@@ -8,7 +8,7 @@ excerpt:  Choose from a collection of premium HTML5 templates, built by creators
       <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
                   <h2 class="title">Themes</h2>
-                  <h5 class="description">A collection of simple HTML5 & WordPress templates, built by creators around the world.</h5>
+                  <h5 class="description">A collection of simple HTML5 & CSS3 templates, built by creators around the world.</h5>
             </div>
 	</div>
 	<br>
